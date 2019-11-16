@@ -1,0 +1,58 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+.btn>a {
+  text-decoration: none;
+}
+
+/*
+ * Cover
+ */
+#home {
+  color: #fff;
+}
+
+.cover {
+  padding: 10rem 1.5rem;
+  text-shadow: 1px 1px 3px black;
+}
+
+.cover .btn-lg {
+  padding: .75rem 4.25rem;
+  font-weight: 700;
+}
+
+#round {
+  background-color: #50d2c3bd;
+  border-radius: 50%;
+  width: 310px;
+  height: 310px;
+  margin: auto;
+  margin-top: 50px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 20px;
+}
+
+#round p {
+  margin: auto;
+}
